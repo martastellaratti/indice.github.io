@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Six+Caps&display=swap');
+/* Font importato */
+
+body {
+    margin: 0 !important;
+    color: #ffb400;
+    text-align: left;
+    font-size: 12px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header {
+    overflow: hidden;
+    background-color: white;
+    padding: 20px 10px;
+  }
+  
+  /* Stile header links */
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+  /* Immagine logo sinistra header*/
+  .img{
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Float sezione link right */
+  .header-right {
+    float: right;
+    margin-top: 10px;
+  }
+  
+  .header-right a:hover{
+    color: #ffb400;
+  }
